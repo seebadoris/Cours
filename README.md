@@ -1,3 +1,3 @@
 # PAIPINF
 
-Note de cours
+Notes de cours
