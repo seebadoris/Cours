@@ -2,9 +2,7 @@
 public class ExTypeDonnees1 {
 
 	public static void main(String[] args) {
-/*		A coriger
-		#########
-		int intEx1 = 0b0111;
+/*		int intEx1 = 0b0111;
 		short shEx1 = 0b0111;
 		byte byEx1 = 0b0111;
 		int intEx2 = 0b1010101;
