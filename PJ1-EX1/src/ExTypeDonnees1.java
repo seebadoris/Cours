@@ -2,7 +2,7 @@
 public class ExTypeDonnees1 {
 
 	public static void main(String[] args) {
-		int intEx1 = 0b0111;
+/*		int intEx1 = 0b0111;
 		short shEx1 = 0b0111;
 		byte byEx1 = 0b0111;
 		int intEx2 = 0b1010101;
@@ -28,7 +28,7 @@ public class ExTypeDonnees1 {
 		System.out.println ("intEx1 " + intEx1);
 		System.out.println ("shEx1 "+ shEx1);
 		System.out.println ("byEx1 "+ byEx1);
-		}//fin main
+	*/	}//fin main
 
 	
 }
