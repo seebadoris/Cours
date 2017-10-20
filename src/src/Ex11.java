@@ -14,7 +14,7 @@ public class Ex11 {
 		boolean blHappyHour=false,nextHF=false;
 		
 		
-		final double dblHappyHour=50/100;
+		final double dblHappyHour=0.5;
 		char HfTrue='o';
 		String HfTrue1="Y";
 		String strName="";//strChar="";
@@ -23,7 +23,7 @@ public class Ex11 {
 		DecimalFormat d2f=new DecimalFormat("#.##");
 		Scanner sc=new Scanner(System.in);
 		
-		System.out.println("N° Consommation : ");
+		System.out.println("NÂ° Consommation : ");
 
 		intChoixConso=sc.nextInt();
 		
@@ -45,11 +45,11 @@ public class Ex11 {
 			break;
 		case 4:
 			dblConsoF=dblConso4;
-			strName="Café ";
+			strName="CafÃ© ";
 			nextHF=true;
 			break;
 		default :
-			System.out.println("N° non référencé.");
+			System.out.println("NÂ° non rÃ©fÃ©rencÃ©.");
 		}											//fin switch
 		
 		
@@ -65,9 +65,9 @@ public class Ex11 {
 		else if (HfTrue=='n' || HfTrue=='N'){
 			dblPx=dblConsoF;
 			}
-		System.out.println(strName+dblPx+"€.");
+		System.out.println(strName+dblPx+"â‚¬.");
 	//	else if(HfTrue!='n'&& HfTrue!='N'&& HfTrue!='Y'&& HfTrue!='y'){
-		//	System.out.println("Mauvaise référence.");
+		//	System.out.println("Mauvaise rÃ©fÃ©rence.");
 	//	}
 
 	}
