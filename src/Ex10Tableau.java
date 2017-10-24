@@ -20,18 +20,18 @@ public class Ex10Tableau {
 	
 	
 //dblUserTva!=dblTva[dblUservTva2];
-	if (dblUserTva2!= 1 &&dblUserTva2!= 2 &&dblUserTva2!=3) {								//si l user encode une valeur autre que 1,2,3
+	if (dblUserTva2!= 1 && dblUserTva2!= 2 && dblUserTva2!=3) {								//si l user encode une valeur autre que 1,2,3
 		System.out.println("fail");
 	}
 	else {																					
 	dblUserTva = dblTva[(int) dblUserTva2];
 	System.out.println("Inserez votre prix brut : ");
-	dblUserPxBrut=sc.nextDouble();
-	dblPxNet=dblUserPxBrut+dblUserPxBrut/100*dblUserTva;
-	System.out.println("Pour un prix brut de "+dblUserPxBrut+ "€, le prix net est de "+dF.format(dblPxNet)+" € (TVA "+dblUserTva+"%). ");
+	dblUserPxBrut=sc.nextDouble();															//demande de prix brut
+	dblPxNet=dblUserPxBrut+dblUserPxBrut/100*dblUserTva;									//calcul
+	System.out.println("Pour un prix brut de "+dblUserPxBrut+ "€, le prix net est de "+dF.format(dblPxNet)+" € (TVA "+dblUserTva+" %). ");
 	}
 	
 	sc.close();
-	}
+	}																	//fin main
 
-}
+}																	//fin class
