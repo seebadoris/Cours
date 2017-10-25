@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+
+public class Ex17 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String strNomConso;
+		int[] intNbrConso=new int [5];
+		int intConsoMax=0;
+		boolean blnQuitter=false;
+		
+		Scanner sc=new Scanner(System.in);
+		
+		do {
+		
+			System.out.println(" Entrez le nom du consommable, Q pour Quitter");
+			//strNomConso=sc.next().charAt(0);			//char en string pas possible
+			strNomConso=sc.next();
+			if (strNomConso=="Q" || strNomConso=="q") {
+				blnQuitter=true;
+			}
+			else{
+				do{
+			
+				}while (intNbrConso[intConsoMax]!=5);
+			}
+		}while (blnQuitter);
+				
+	System.out.print("bou");
+	
+	}
+	
+
+}
